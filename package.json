@@ -1,0 +1,17 @@
+{
+  "name": "sheetmetal-geometry",
+  "version": "0.1.0",
+  "description": "Parametric sheet-metal geometry in pure JS: bend chains, K-factor bend allowance, flat-pattern layout and boolean-merged cut outlines.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": ["sheet-metal", "cad", "geometry", "flat-pattern", "bend-allowance", "k-factor", "csg", "polygon-clipping", "threejs", "webgl"],
+  "license": "MIT",
+  "dependencies": {
+    "polygon-clipping": "^0.15.7"
+  }
+}
