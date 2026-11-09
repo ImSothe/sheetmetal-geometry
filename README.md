@@ -5,6 +5,9 @@ chained bends, K-factor bend allowance, flat-pattern layout, cut clamping and **
 cut outlines**. It is the maths layer behind a B2B 3D configurator: one place that pricing, a
 flat-pattern exporter and a 3D mesh builder can all share.
 
+> Built on my own initiative as part of a proposal for a prospective client. No agreement was reached and nothing was
+> commissioned, so the code is mine and is released under MIT.
+
 ```js
 import { defaultPart, resolveGeometry, bendAllowance, mergeCutOutlines } from 'sheetmetal-geometry';
 
